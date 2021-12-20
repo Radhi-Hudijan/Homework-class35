@@ -1,39 +1,55 @@
 {
-  "node": "v14.15.1",
+  "node": "v16.13.1",
   "system": {
     "manufacturer": "Apple Inc.",
-    "model": "MacBookPro11,3"
+    "model": "MacBookAir7,2"
   },
   "cpu": {
     "manufacturer": "Intel®",
-    "brand": "Core™ i7-4960HQ",
-    "speed": 2.6
+    "brand": "Core™ i5-5350U",
+    "speed": 1.8
   },
-  "memory": "16 GB",
+  "memory": "8 GB",
   "osInfo": {
     "platform": "darwin",
     "distro": "macOS",
-    "release": "11.5.2"
+    "release": "11.6"
   },
   "vscodeInfo": {
-    "version": "1.62.1",
+    "version": "1.63.2",
     "extensions": [
+      "dbaeumer.jshint",
+      "dbaeumer.vscode-eslint",
+      "eamodio.gitlens",
       "esbenp.prettier-vscode",
+      "evgeniypeshkov.syntax-highlighter",
+      "firefox-devtools.vscode-firefox-debug",
+      "hdg.live-html-previewer",
+      "HookyQR.beautify",
+      "ms-azuretools.vscode-docker",
+      "ms-edgedevtools.vscode-edge-devtools",
       "ritwickdey.LiveServer",
-      "shd101wyy.markdown-preview-enhanced"
+      "streetsidesoftware.code-spell-checker",
+      "vscodevim.vim",
+      "WallabyJs.quokka-vscode"
     ],
     "userSettings": {
-      "explorer.confirmDragAndDrop": false,
-      "explorer.confirmDelete": false,
-      "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-      },
-      "javascript.updateImportsOnFileMove.enabled": "never",
+      "workbench.startupEditor": "none",
+      "workbench.colorTheme": "Abyss",
+      "files.autoSave": "afterDelay",
+      "editor.fontSize": 14,
       "editor.formatOnSave": true,
-      "editor.tabSize": 2,
-      "[javascriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-      }
+      "quokka.compactMessageOutput": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnType": true,
+      "eslint.debug": true,
+      "cSpell.userWords": [
+        "أحبك"
+      ],
+      "javascript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
+      "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+      "vscode-edge-devtools.mirrorEdits": true,
+      "workbench.editor.untitled.hint": "hidden"
     }
   }
 }
