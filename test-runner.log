@@ -117,3 +117,40 @@ Command failed: npx jest ex3-tellFortune.test.js --colors --reporters="/Users/ra
 2021-12-20 02:50:43 info: --------------------------------------------
 2021-12-20 02:50:43 warn: A unit test file was not provided.
 2021-12-20 02:50:49 info: All steps were completed successfully
+2021-12-20 03:44:07 info: ------------------------------------------------
+2021-12-20 03:44:07 info: >>> Running Unit Test `ex5-shoppingCartPure` <<<
+2021-12-20 03:44:07 info: ------------------------------------------------
+2021-12-20 03:44:07 warn: A unit test file was not provided.
+2021-12-20 03:44:12 info: All steps were completed successfully
+2021-12-20 05:24:46 info: -----------------------------------------
+2021-12-20 05:24:46 info: >>> Running Unit Test `ex6-totalCost` <<<
+2021-12-20 05:24:46 info: -----------------------------------------
+2021-12-20 05:24:46 warn: A unit test file was not provided.
+2021-12-20 05:24:50 error: *** ESLint Report ***
+
+ex6-totalCost.js
+  33:3   warning  Avoid `for in` loops. Prefer `Object.keys()` instead                       no-restricted-syntax
+  33:12  warning  'i' is never reassigned. Use 'const' instead                               no-autofix/prefer-const
+  34:20  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+
+✖ 3 problems (1 error, 2 warnings)
+
+
+2021-12-20 05:26:55 info: -----------------------------------------
+2021-12-20 05:26:55 info: >>> Running Unit Test `ex6-totalCost` <<<
+2021-12-20 05:26:55 info: -----------------------------------------
+2021-12-20 05:26:55 warn: A unit test file was not provided.
+2021-12-20 05:27:00 error: *** Spell Checker Report ***
+
+ex6-totalCost.js:35:46 - Unknown word (builtins)
+
+2021-12-20 05:27:57 info: -----------------------------------------
+2021-12-20 05:27:57 info: >>> Running Unit Test `ex6-totalCost` <<<
+2021-12-20 05:27:57 info: -----------------------------------------
+2021-12-20 05:27:57 warn: A unit test file was not provided.
+2021-12-20 05:28:02 info: All steps were completed successfully
+2021-12-21 04:43:30 info: -------------------------------------------
+2021-12-21 04:43:30 info: >>> Running Unit Test `ex7-mindPrivacy` <<<
+2021-12-21 04:43:30 info: -------------------------------------------
+2021-12-21 04:43:30 warn: A unit test file was not provided.
+2021-12-21 04:43:35 info: All steps were completed successfully
