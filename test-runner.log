@@ -154,3 +154,8 @@ ex6-totalCost.js:35:46 - Unknown word (builtins)
 2021-12-21 04:43:30 info: -------------------------------------------
 2021-12-21 04:43:30 warn: A unit test file was not provided.
 2021-12-21 04:43:35 info: All steps were completed successfully
+2022-01-01 08:08:13 info: -------------------------------------------
+2022-01-01 08:08:13 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2022-01-01 08:08:13 info: -------------------------------------------
+2022-01-01 08:08:20 info: All unit tests passed.
+2022-01-01 08:08:25 info: All steps were completed successfully

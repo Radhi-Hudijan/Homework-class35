@@ -33,9 +33,9 @@ body, this code is now written once only in a separated function.
 
 // This function should take an array as its parameter and return
 // a randomly selected element as its return value.
-function selectRandomly(err) {
-  const randomElement = Math.floor(Math.random() * err.length);
-  return err[randomElement];
+function selectRandomly(arrayParameter) {
+  const randomElement = Math.floor(Math.random() * arrayParameter.length);
+  return arrayParameter[randomElement];
 }
 
 function tellFortune(numChilde, partner, geoLocation, jopPosition) {
