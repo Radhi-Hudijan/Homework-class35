@@ -38,8 +38,7 @@ function filterPrivateData(employeeInformation) {
   );
   return employeeData;
 }
-console.log(filterPrivateData(employeeRecords));
-
+ 
 // ! Test functions (plain vanilla JavaScript)
 function test1() {
   console.log('Test 1: filterPrivateData should take one parameters');

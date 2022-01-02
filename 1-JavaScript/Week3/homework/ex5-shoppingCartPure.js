@@ -20,7 +20,9 @@ function addToShoppingCart(shoppingCart, groceryItem) {
   const newShoppingCart = [...shoppingCart];
   if (groceryItem) {
     newShoppingCart.push(groceryItem);
-    shoppingCart.length > 3 ? shoppingCart.shift() : null;
+    if (shoppingCart.length > 3) {
+      shoppingCart.shift();
+    }
     return newShoppingCart;
   } else return newShoppingCart;
 }
