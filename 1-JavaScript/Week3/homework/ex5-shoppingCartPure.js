@@ -23,8 +23,8 @@ function addToShoppingCart(shoppingCart, groceryItem) {
     if (shoppingCart.length > 3) {
       shoppingCart.shift();
     }
-    return newShoppingCart;
-  } else return newShoppingCart;
+  }
+  return newShoppingCart;
 }
 
 // ! Test functions (plain vanilla JavaScript)
