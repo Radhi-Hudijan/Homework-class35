@@ -671,3 +671,16 @@ ex2-aboutMe/index.js:24:25 - Unknown word (Hadramout)
 2022-01-09 02:14:19 info: ---------------------------------------
 2022-01-09 02:14:30 info: All unit tests passed.
 2022-01-09 02:14:37 info: All steps were completed successfully
+2022-01-09 03:46:52 info: ------------------------------------------
+2022-01-09 03:46:52 info: >>> Running Unit Test `ex3-hijackLogo` <<<
+2022-01-09 03:46:52 info: ------------------------------------------
+2022-01-09 03:46:57 info: All unit tests passed.
+2022-01-09 03:47:02 error: *** Spell Checker Report ***
+
+ex3-hijackLogo.js:11:57 - Unknown word (Xdpd)
+
+2022-01-09 03:47:45 info: ------------------------------------------
+2022-01-09 03:47:45 info: >>> Running Unit Test `ex3-hijackLogo` <<<
+2022-01-09 03:47:45 info: ------------------------------------------
+2022-01-09 03:47:48 info: All unit tests passed.
+2022-01-09 03:47:52 info: All steps were completed successfully
