@@ -293,3 +293,32 @@ ex3-lemonAllergy.test.js
 2022-01-13 03:57:08 info: -------------------------------------------------
 2022-01-13 03:57:11 info: All unit tests passed.
 2022-01-13 03:57:15 info: All steps were completed successfully
+2022-01-13 04:00:24 info: --------------------------------------
+2022-01-13 04:00:24 info: >>> Running Unit Test `ex5-wallet` <<<
+2022-01-13 04:00:24 info: --------------------------------------
+2022-01-13 04:00:28 info: All unit tests passed.
+2022-01-13 04:00:33 info: All steps were completed successfully
+2022-01-13 05:38:00 info: -------------------------------------------------
+2022-01-13 05:38:00 info: >>> Running Unit Test `ex3-lemonAllergy.test` <<<
+2022-01-13 05:38:00 info: -------------------------------------------------
+2022-01-13 05:38:06 info: All unit tests passed.
+2022-01-13 05:38:08 error: *** ESLint Report ***
+
+ex3-lemonAllergy.test.js
+  46:11  error  'callFunction' is assigned a value but never used  no-unused-vars
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2022-01-13 05:40:37 info: -------------------------------------------------
+2022-01-13 05:40:37 info: >>> Running Unit Test `ex3-lemonAllergy.test` <<<
+2022-01-13 05:40:37 info: -------------------------------------------------
+2022-01-13 05:40:41 info: All unit tests passed.
+2022-01-13 05:40:43 error: *** ESLint Report ***
+
+ex3-lemonAllergy.test.js
+  46:11  error  'passOriginalArray' is assigned a value but never used  no-unused-vars
+
+✖ 1 problem (1 error, 0 warnings)
+
+
