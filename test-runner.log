@@ -276,3 +276,20 @@ ex5-wallet/index.js
 2021-12-27 06:45:18 info: --------------------------------------
 2021-12-27 06:45:22 info: All unit tests passed.
 2021-12-27 06:45:27 info: All steps were completed successfully
+2022-01-13 03:56:19 info: -------------------------------------------------
+2022-01-13 03:56:19 info: >>> Running Unit Test `ex3-lemonAllergy.test` <<<
+2022-01-13 03:56:19 info: -------------------------------------------------
+2022-01-13 03:56:25 info: All unit tests passed.
+2022-01-13 03:56:27 error: *** ESLint Report ***
+
+ex3-lemonAllergy.test.js
+  50:5  warning  Remove commented-out code  hyf/no-commented-out-code
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2022-01-13 03:57:08 info: -------------------------------------------------
+2022-01-13 03:57:08 info: >>> Running Unit Test `ex3-lemonAllergy.test` <<<
+2022-01-13 03:57:08 info: -------------------------------------------------
+2022-01-13 03:57:11 info: All unit tests passed.
+2022-01-13 03:57:15 info: All steps were completed successfully
