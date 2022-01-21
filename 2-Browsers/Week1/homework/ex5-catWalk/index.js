@@ -30,7 +30,11 @@ const screenWidth = window.innerWidth;
 const catImageWidth = image.width;
 
 function catReachToMiddleScreen() {
-  return parseInt(image.style.left) >= (screenWidth - catImageWidth) / 2;
+  const midScreen = (screenWidth - catImageWidth) / 2;
+  return (
+    parseInt(image.style.left) > midScreen - 5 &&
+    parseInt(image.style.left) < midScreen + 5
+  );
 }
 
 function setTimeOutAfter5Second() {
@@ -40,7 +44,8 @@ function setTimeOutAfter5Second() {
   }, 5000);
 }
 function catReachRightSide() {
-  return parseInt(image.style.left) >= screenWidth - catImageWidth;
+  const fullScreenWidth = screenWidth - catImageWidth;
+  return parseInt(image.style.left) >= fullScreenWidth;
 }
 
 image.style.left = '0px';

@@ -29,7 +29,6 @@ function addCurrentTime() {
     timeDisplay.textContent = currentTime;
   }, 1000);
 }
-
 function addZero(number) {
   return number < 10 ? `0${number}` : number;
 }
