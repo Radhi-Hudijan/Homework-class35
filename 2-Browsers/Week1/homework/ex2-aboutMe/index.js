@@ -27,5 +27,4 @@ const li = document.querySelectorAll('li');
 
 li.forEach((list) => {
   list.className = 'list-item';
-  list.style.color = 'red';
 });

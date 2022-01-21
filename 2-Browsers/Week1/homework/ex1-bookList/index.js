@@ -31,7 +31,7 @@ function createBookList(books) {
     const li = document.createElement('li');
     const paragraph = document.createElement('p');
     const imageCover = document.createElement('img');
-    const { title, author, alreadyRead } = book;
+    const { title, author } = book;
     paragraph.textContent = `${title} - ${author}`;
     li.appendChild(paragraph);
     li.appendChild(imageCover);
@@ -41,9 +41,8 @@ function createBookList(books) {
     imageCover.alt = 'Book Cover';
     imageCover.src = images[i];
     ul.appendChild(li);
-    alreadyRead
-      ? (li.style.background = 'green')
-      : (li.style.background = 'red');
+    const color = book.alreadyRead ? 'green' : 'red';
+    li.style.background = color;
     i++;
   }
   return ul;
